@@ -1,5 +1,6 @@
 FILESEXTRAPATHS_prepend := "${THISDIR}/files:"
 
+PR_append = ".1"
 
 SRC_URI_append += " \
 	file://firstboot.sh \
